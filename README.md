@@ -95,18 +95,18 @@ Creacion de las variables de entorno:
 ---
 # Creacion del entorno virtual y ejecucion
 Con la terminal ubicada en el directorio de nuestro proyecto, lo primero es crear el entorno virtual, preferentemente en una carpeta aparte:
->C:/Users/x_path/mi_project>
+>C:/Users/x_path/project_name>
 > `$ python -m venv venv`
 
 Luego se procede con la activacion del entorno virtual:
->C:/Users/x_path/mi_project/venv/Scripts>
+>C:/Users/x_path/project_name/venv/Scripts>
 >`$ active`
 
 Regresamos al directorio de nuestro proyecto e importan los requerimientos:
->C:/Users/x_path/mi_project>
+>C:/Users/x_path/project_name>
 >`$ pip install -r requirements.txt`
 
 Finalmente, para la ejecucion, dentro del directorio pipeline ejecutar el script main.py:
->C:/Users/x_path/mi_project/pipeline>
+>C:/Users/x_path/project_name/pipeline>
 >`$ python main.py`
 
